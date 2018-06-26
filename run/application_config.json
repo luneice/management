@@ -1,0 +1,575 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "overwrite": true,
+      "signed": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function anonymous>"
+    },
+    "security": {
+      "domainWhiteList": [],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": true,
+        "useSession": false,
+        "ignoreJSON": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "matching": "<Function anonymous>"
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "checkAddress": null
+      }
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/luneice/project/NodejsProject/egg/node_modules/egg-onerror/lib/onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "/luneice/project/NodejsProject/egg/node_modules/egg-session/config/locales",
+        "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/locales",
+        "/luneice/project/NodejsProject/egg/node_modules/egg-jsonp/config/locales",
+        "/luneice/project/NodejsProject/egg/node_modules/egg-onerror/config/locales",
+        "/luneice/project/NodejsProject/egg/node_modules/egg-i18n/config/locales",
+        "/luneice/project/NodejsProject/egg/node_modules/egg-watcher/config/locales",
+        "/luneice/project/NodejsProject/egg/node_modules/egg-multipart/config/locales",
+        "/luneice/project/NodejsProject/egg/node_modules/egg-development/config/locales",
+        "/luneice/project/NodejsProject/egg/node_modules/egg-schedule/config/locales",
+        "/luneice/project/NodejsProject/egg/node_modules/egg-logrotator/config/locales",
+        "/luneice/project/NodejsProject/egg/node_modules/egg-static/config/locales",
+        "/luneice/project/NodejsProject/egg/node_modules/egg-view/config/locales",
+        "/luneice/project/NodejsProject/egg/node_modules/egg-mysql/config/locales",
+        "/luneice/project/NodejsProject/egg/node_modules/egg/config/locales",
+        "/luneice/project/NodejsProject/egg/config/locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/luneice/project/NodejsProject/egg/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/luneice/project/NodejsProject/egg/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "multipart": {
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "/luneice/project/NodejsProject/egg/logs/egg/egg-schedule.log"
+      }
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/luneice/project/NodejsProject/egg/app/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000,
+      "files": "<LRU>"
+    },
+    "view": {
+      "root": "/luneice/project/NodejsProject/egg/app/view",
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {}
+    },
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "localhost",
+        "port": "3306",
+        "user": "root",
+        "password": "<String len: 7>",
+        "database": "luneice"
+      }
+    },
+    "env": "local",
+    "name": "egg",
+    "keys": "<String len: 21>",
+    "proxy": false,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "egg",
+      "version": "1.0.0",
+      "description": "A Vue.js project",
+      "author": "2254460757 <2254460757@qq.com>",
+      "private": true,
+      "scripts": {
+        "egg-start": "egg-scripts egg-start --daemon --title=egg-server-egg",
+        "egg-stop": "egg-scripts egg-stop --title=egg-server-egg",
+        "egg-dev": "egg-bin dev",
+        "egg-debug": "egg-bin debug",
+        "egg-test": "npm run egg-lint -- --fix && npm run egg-test-local",
+        "egg-test-local": "egg-bin egg-test",
+        "egg-cov": "egg-bin cov",
+        "egg-lint": "eslint .",
+        "egg-ci": "npm run lint && npm run cov",
+        "egg-autod": "autod",
+        "vue-dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+        "vue-start": "npm run vue-dev",
+        "vue-unit": "jest --config test/unit/jest.conf.js --coverage",
+        "vue-e2e": "node test/e2e/runner.js",
+        "vue-test": "npm run vue-unit && npm run vue-e2e",
+        "vue-lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
+        "vue-build": "node build/build.js"
+      },
+      "dependencies": {
+        "echarts": "^4.1.0",
+        "egg": "^2.2.1",
+        "egg-mysql": "^3.0.0",
+        "egg-scripts": "^2.5.0",
+        "element-ui": "^2.4.1",
+        "v-charts": "^1.17.4",
+        "vue": "^2.5.2",
+        "vue-router": "^3.0.1"
+      },
+      "devDependencies": {
+        "autod": "^3.0.1",
+        "autod-egg": "^1.0.0",
+        "autoprefixer": "^7.1.2",
+        "babel-core": "^6.22.1",
+        "babel-eslint": "^8.2.1",
+        "babel-helper-vue-jsx-merge-props": "^2.0.3",
+        "babel-jest": "^21.0.2",
+        "babel-loader": "^7.1.1",
+        "babel-plugin-dynamic-import-node": "^1.2.0",
+        "babel-plugin-syntax-jsx": "^6.18.0",
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+        "babel-plugin-transform-runtime": "^6.22.0",
+        "babel-plugin-transform-vue-jsx": "^3.5.0",
+        "babel-preset-env": "^1.3.2",
+        "babel-preset-stage-2": "^6.22.0",
+        "babel-register": "^6.22.0",
+        "chalk": "^2.0.1",
+        "chromedriver": "^2.27.2",
+        "copy-webpack-plugin": "^4.0.1",
+        "cross-spawn": "^5.0.1",
+        "css-loader": "^0.28.0",
+        "egg-bin": "^4.3.5",
+        "egg-ci": "^1.8.0",
+        "egg-mock": "^3.14.0",
+        "eslint": "^4.15.0",
+        "eslint-config-egg": "^6.0.0",
+        "eslint-config-standard": "^10.2.1",
+        "eslint-friendly-formatter": "^3.0.0",
+        "eslint-loader": "^1.7.1",
+        "eslint-plugin-import": "^2.7.0",
+        "eslint-plugin-node": "^5.2.0",
+        "eslint-plugin-promise": "^3.4.0",
+        "eslint-plugin-standard": "^3.0.1",
+        "eslint-plugin-vue": "^4.0.0",
+        "extract-text-webpack-plugin": "^3.0.0",
+        "file-loader": "^1.1.4",
+        "friendly-errors-webpack-plugin": "^1.6.1",
+        "html-webpack-plugin": "^2.30.1",
+        "jest": "^22.0.4",
+        "jest-serializer-vue": "^0.3.0",
+        "nightwatch": "^0.9.12",
+        "node-notifier": "^5.1.2",
+        "optimize-css-assets-webpack-plugin": "^3.2.0",
+        "ora": "^1.2.0",
+        "portfinder": "^1.0.13",
+        "postcss-import": "^11.0.0",
+        "postcss-loader": "^2.0.8",
+        "postcss-url": "^7.2.1",
+        "rimraf": "^2.6.0",
+        "selenium-server": "^3.0.1",
+        "semver": "^5.3.0",
+        "shelljs": "^0.7.6",
+        "uglifyjs-webpack-plugin": "^1.1.1",
+        "url-loader": "^0.5.8",
+        "vue-easytable": "^1.7.1",
+        "vue-jest": "^1.0.2",
+        "vue-loader": "^13.3.0",
+        "vue-style-loader": "^3.0.1",
+        "vue-template-compiler": "^2.5.2",
+        "webpack": "^3.6.0",
+        "webpack-bundle-analyzer": "^2.9.0",
+        "webpack-dev-server": "^2.9.1",
+        "webpack-merge": "^4.1.0",
+        "webstorm-disable-index": "^1.2.0"
+      },
+      "engines": {
+        "node": ">= 6.0.0",
+        "npm": ">= 3.0.0"
+      },
+      "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+      ]
+    },
+    "baseDir": "/luneice/project/NodejsProject/egg",
+    "HOME": "/home/luneice",
+    "rundir": "/luneice/project/NodejsProject/egg/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 6463>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "100kb",
+      "jsonLimit": "100kb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "/luneice/project/NodejsProject/egg/logs/egg",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "INFO",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "egg-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheMaxLength": 1000,
+      "dnsCacheMaxAge": 10000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n"
+    ],
+    "workerStartTimeout": 600000,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "middleware": [],
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 10485760,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/luneice/project/NodejsProject/egg/node_modules/egg/config/plugin.js",
+      "path": "/luneice/project/NodejsProject/egg/node_modules/egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/luneice/project/NodejsProject/egg/node_modules/egg/config/plugin.js",
+      "path": "/luneice/project/NodejsProject/egg/node_modules/egg-security",
+      "version": "2.2.2"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/luneice/project/NodejsProject/egg/node_modules/egg/config/plugin.js",
+      "path": "/luneice/project/NodejsProject/egg/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/luneice/project/NodejsProject/egg/node_modules/egg/config/plugin.js",
+      "path": "/luneice/project/NodejsProject/egg/node_modules/egg-onerror",
+      "version": "2.1.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/luneice/project/NodejsProject/egg/node_modules/egg/config/plugin.js",
+      "path": "/luneice/project/NodejsProject/egg/node_modules/egg-i18n",
+      "version": "2.0.0"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/luneice/project/NodejsProject/egg/node_modules/egg/config/plugin.js",
+      "path": "/luneice/project/NodejsProject/egg/node_modules/egg-watcher",
+      "version": "3.0.0"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/luneice/project/NodejsProject/egg/node_modules/egg/config/plugin.js",
+      "path": "/luneice/project/NodejsProject/egg/node_modules/egg-multipart",
+      "version": "2.0.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/luneice/project/NodejsProject/egg/node_modules/egg/config/plugin.js",
+      "path": "/luneice/project/NodejsProject/egg/node_modules/egg-development",
+      "version": "2.2.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/luneice/project/NodejsProject/egg/node_modules/egg/config/plugin.js",
+      "path": "/luneice/project/NodejsProject/egg/node_modules/egg-schedule",
+      "version": "3.3.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/luneice/project/NodejsProject/egg/node_modules/egg/config/plugin.js",
+      "path": "/luneice/project/NodejsProject/egg/node_modules/egg-logrotator",
+      "version": "3.0.3"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/luneice/project/NodejsProject/egg/node_modules/egg/config/plugin.js",
+      "path": "/luneice/project/NodejsProject/egg/node_modules/egg-static",
+      "version": "2.1.1"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/luneice/project/NodejsProject/egg/node_modules/egg/config/plugin.js",
+      "path": "/luneice/project/NodejsProject/egg/node_modules/egg-view",
+      "version": "2.1.0"
+    },
+    "mysql": {
+      "enable": true,
+      "package": "egg-mysql",
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/luneice/project/NodejsProject/egg/config/plugin.js",
+      "path": "/luneice/project/NodejsProject/egg/node_modules/egg-mysql",
+      "version": "3.0.0"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+2018-06-24 00:00:00,012 INFO 23205 [152976960000753652513341554] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js task received by app
+2018-06-24 00:00:00,013 INFO 23205 [152976960000753652513341554] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2018-06-24 00:00:00,020 INFO 23205 [152976960000753652513341554] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 6ms
+2018-06-24 00:00:01,004 INFO 23205 [152976960100153653507389217] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js task received by app
+2018-06-24 00:00:01,005 INFO 23205 [152976960100153653507389217] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2018-06-24 00:00:01,013 INFO 23205 [152976960100153653507389217] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 8ms

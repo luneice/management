@@ -1,0 +1,96 @@
+2018-06-23 22:06:22,114 ERROR 22907 [-/127.0.0.1/-/29ms POST /student/insert] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.insert (/luneice/project/NodejsProject/egg/node_modules/ali-rds/lib/operator.js:124:30)
+    at proto.insert.next (<anonymous>)
+    at onFulfilled (/luneice/project/NodejsProject/egg/node_modules/co/index.js:65:19)
+    at /luneice/project/NodejsProject/egg/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (/luneice/project/NodejsProject/egg/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as insert] (/luneice/project/NodejsProject/egg/node_modules/co/index.js:30:15)
+    at StudentService.insert (/luneice/project/NodejsProject/egg/app/service/student.js:49:24)
+    at StudentController.insertStudent (/luneice/project/NodejsProject/egg/app/controller/student.js:79:34)
+
+pid: 22907
+hostname: luneice
+
+2018-06-23 22:07:58,998 ERROR 22907 [-/127.0.0.1/-/4ms POST /student/insert] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.insert (/luneice/project/NodejsProject/egg/node_modules/ali-rds/lib/operator.js:124:30)
+    at proto.insert.next (<anonymous>)
+    at onFulfilled (/luneice/project/NodejsProject/egg/node_modules/co/index.js:65:19)
+    at /luneice/project/NodejsProject/egg/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (/luneice/project/NodejsProject/egg/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as insert] (/luneice/project/NodejsProject/egg/node_modules/co/index.js:30:15)
+    at StudentService.insert (/luneice/project/NodejsProject/egg/app/service/student.js:49:24)
+    at StudentController.insertStudent (/luneice/project/NodejsProject/egg/app/controller/student.js:79:34)
+
+pid: 22907
+hostname: luneice
+
+2018-06-23 22:10:01,182 ERROR 23025 [-/127.0.0.1/-/7ms POST /student/insert] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '201500772' for key 'PRIMARY'
+    at Query.Sequence._packetToError (/luneice/project/NodejsProject/egg/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/luneice/project/NodejsProject/egg/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/luneice/project/NodejsProject/egg/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/luneice/project/NodejsProject/egg/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/luneice/project/NodejsProject/egg/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/luneice/project/NodejsProject/egg/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Pool.query (/luneice/project/NodejsProject/egg/node_modules/mysql/lib/Pool.js:199:23)
+    at /luneice/project/NodejsProject/egg/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/luneice/project/NodejsProject/egg/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/luneice/project/NodejsProject/egg/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/luneice/project/NodejsProject/egg/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/luneice/project/NodejsProject/egg/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/luneice/project/NodejsProject/egg/node_modules/co/index.js:65:19)
+    at /luneice/project/NodejsProject/egg/node_modules/co/index.js:54:5
+    sql: INSERT INTO `student`(`sid`, `sname`, `ssex`, `sage`, `sdept`) VALUES('201500772', '曾与', '男', 20, '经济管理学院')
+code: 'ER_DUP_ENTRY'
+errno: 1062
+sqlMessage: 'Duplicate entry \'201500772\' for key \'PRIMARY\''
+sqlState: '23000'
+index: 0
+sql: 'INSERT INTO `student`(`sid`, `sname`, `ssex`, `sage`, `sdept`) VALUES(\'201500772\', \'曾与\', \'男\', 20, \'经济管理学院\')'
+name: 'ER_DUP_ENTRYError'
+pid: 23025
+hostname: luneice
+
+2018-06-23 22:10:41,276 ERROR 23025 [-/127.0.0.1/-/4ms POST /student/insert] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '201500772' for key 'PRIMARY'
+    at Query.Sequence._packetToError (/luneice/project/NodejsProject/egg/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/luneice/project/NodejsProject/egg/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/luneice/project/NodejsProject/egg/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/luneice/project/NodejsProject/egg/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/luneice/project/NodejsProject/egg/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/luneice/project/NodejsProject/egg/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Pool.query (/luneice/project/NodejsProject/egg/node_modules/mysql/lib/Pool.js:199:23)
+    at /luneice/project/NodejsProject/egg/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/luneice/project/NodejsProject/egg/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/luneice/project/NodejsProject/egg/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/luneice/project/NodejsProject/egg/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/luneice/project/NodejsProject/egg/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/luneice/project/NodejsProject/egg/node_modules/co/index.js:65:19)
+    at /luneice/project/NodejsProject/egg/node_modules/co/index.js:54:5
+    sql: INSERT INTO `student`(`sid`, `sname`, `ssex`, `sage`, `sdept`) VALUES('201500772', '曾与', '男', 20, '经济管理学院')
+code: 'ER_DUP_ENTRY'
+errno: 1062
+sqlMessage: 'Duplicate entry \'201500772\' for key \'PRIMARY\''
+sqlState: '23000'
+index: 0
+sql: 'INSERT INTO `student`(`sid`, `sname`, `ssex`, `sage`, `sdept`) VALUES(\'201500772\', \'曾与\', \'男\', 20, \'经济管理学院\')'
+name: 'ER_DUP_ENTRYError'
+pid: 23025
+hostname: luneice
+

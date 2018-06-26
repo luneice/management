@@ -1,0 +1,14 @@
+2018-06-24 15:42:41,427 INFO 11766 [Timer] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-06-25 00:00:00.000
+2018-06-24 15:42:41,430 INFO 11766 [Timer] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-06-25 00:00:01.000
+2018-06-24 16:21:51,811 INFO 13119 [Timer] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-06-25 00:00:00.000
+2018-06-24 16:21:51,812 INFO 13119 [Timer] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-06-25 00:00:01.000
+2018-06-25 08:50:28,196 INFO 5283 [Timer] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-06-26 00:00:00.000
+2018-06-25 08:50:28,198 INFO 5283 [Timer] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-06-26 00:00:01.000
+2018-06-25 11:31:04,727 INFO 4220 [Timer] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-06-26 00:00:00.000
+2018-06-25 11:31:04,729 INFO 4220 [Timer] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-06-26 00:00:01.000
+2018-06-26 14:48:23,552 INFO 6796 [Timer] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-06-27 00:00:00.000
+2018-06-26 14:48:23,554 INFO 6796 [Timer] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-06-27 00:00:01.000
+2018-06-26 14:57:41,048 INFO 3694 [Timer] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-06-27 00:00:00.000
+2018-06-26 14:57:41,049 INFO 3694 [Timer] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-06-27 00:00:01.000
+2018-06-26 15:06:41,515 INFO 3516 [Timer] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-06-27 00:00:00.000
+2018-06-26 15:06:41,518 INFO 3516 [Timer] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-06-27 00:00:01.000

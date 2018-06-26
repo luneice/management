@@ -1,0 +1,352 @@
+{
+  "keys": "/luneice/project/NodejsProject/egg/config/config.default.js",
+  "middleware": "/luneice/project/NodejsProject/egg/config/config.default.js",
+  "mysql": {
+    "client": {
+      "host": "/luneice/project/NodejsProject/egg/config/config.default.js",
+      "port": "/luneice/project/NodejsProject/egg/config/config.default.js",
+      "user": "/luneice/project/NodejsProject/egg/config/config.default.js",
+      "password": "/luneice/project/NodejsProject/egg/config/config.default.js",
+      "database": "/luneice/project/NodejsProject/egg/config/config.default.js"
+    },
+    "app": "/luneice/project/NodejsProject/egg/config/config.default.js",
+    "agent": "/luneice/project/NodejsProject/egg/config/config.default.js",
+    "default": {
+      "database": "/luneice/project/NodejsProject/egg/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/luneice/project/NodejsProject/egg/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/luneice/project/NodejsProject/egg/node_modules/egg-session/config/config.default.js",
+    "key": "/luneice/project/NodejsProject/egg/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/luneice/project/NodejsProject/egg/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/luneice/project/NodejsProject/egg/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+      "useSession": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+      "headerName": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+      "queryName": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+      "value": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+      "value": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+      "value": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+      "policy": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/luneice/project/NodejsProject/egg/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/luneice/project/NodejsProject/egg/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/luneice/project/NodejsProject/egg/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/luneice/project/NodejsProject/egg/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/luneice/project/NodejsProject/egg/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/luneice/project/NodejsProject/egg/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/luneice/project/NodejsProject/egg/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/luneice/project/NodejsProject/egg/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/luneice/project/NodejsProject/egg/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/luneice/project/NodejsProject/egg/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/luneice/project/NodejsProject/egg/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/luneice/project/NodejsProject/egg/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/luneice/project/NodejsProject/egg/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/luneice/project/NodejsProject/egg/node_modules/egg-watcher/config/config.default.js",
+      "development": "/luneice/project/NodejsProject/egg/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/luneice/project/NodejsProject/egg/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/luneice/project/NodejsProject/egg/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/luneice/project/NodejsProject/egg/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/luneice/project/NodejsProject/egg/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/luneice/project/NodejsProject/egg/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/luneice/project/NodejsProject/egg/node_modules/egg-multipart/config/config.default.js",
+    "files": "/luneice/project/NodejsProject/egg/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/luneice/project/NodejsProject/egg/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/luneice/project/NodejsProject/egg/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/luneice/project/NodejsProject/egg/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/luneice/project/NodejsProject/egg/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/luneice/project/NodejsProject/egg/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/luneice/project/NodejsProject/egg/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/luneice/project/NodejsProject/egg/node_modules/egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/luneice/project/NodejsProject/egg/node_modules/egg-schedule/config/config.default.js",
+      "file": "/luneice/project/NodejsProject/egg/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/luneice/project/NodejsProject/egg/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/luneice/project/NodejsProject/egg/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/luneice/project/NodejsProject/egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/luneice/project/NodejsProject/egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/luneice/project/NodejsProject/egg/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/luneice/project/NodejsProject/egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/luneice/project/NodejsProject/egg/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/luneice/project/NodejsProject/egg/node_modules/egg-static/config/config.default.js",
+    "dir": "/luneice/project/NodejsProject/egg/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/luneice/project/NodejsProject/egg/node_modules/egg-static/config/config.default.js",
+    "preload": "/luneice/project/NodejsProject/egg/node_modules/egg-static/config/config.default.js",
+    "buffer": "/luneice/project/NodejsProject/egg/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/luneice/project/NodejsProject/egg/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/luneice/project/NodejsProject/egg/node_modules/egg-view/config/config.default.js",
+    "cache": "/luneice/project/NodejsProject/egg/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/luneice/project/NodejsProject/egg/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/luneice/project/NodejsProject/egg/node_modules/egg-view/config/config.default.js",
+    "mapping": "/luneice/project/NodejsProject/egg/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+  "name": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+  "proxy": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "version": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "description": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "author": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "private": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "egg-start": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "egg-stop": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "egg-dev": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "egg-debug": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "egg-test": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "egg-test-local": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "egg-cov": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "egg-lint": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "egg-ci": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "egg-autod": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "vue-dev": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "vue-start": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "vue-unit": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "vue-e2e": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "vue-test": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "vue-lint": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "vue-build": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "echarts": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "egg": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "element-ui": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "v-charts": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "vue": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "vue-router": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "autod-egg": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "autoprefixer": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "babel-core": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "babel-eslint": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "babel-helper-vue-jsx-merge-props": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "babel-jest": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "babel-loader": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "babel-plugin-dynamic-import-node": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "babel-plugin-syntax-jsx": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-es2015-modules-commonjs": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-runtime": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-vue-jsx": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "babel-preset-env": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "babel-preset-stage-2": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "babel-register": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "chalk": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "chromedriver": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "copy-webpack-plugin": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "cross-spawn": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "css-loader": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "egg-bin": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "egg-ci": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "egg-mock": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "eslint": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "eslint-config-standard": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "eslint-friendly-formatter": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "eslint-loader": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "eslint-plugin-import": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "eslint-plugin-node": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "eslint-plugin-promise": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "eslint-plugin-standard": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "eslint-plugin-vue": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "extract-text-webpack-plugin": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "file-loader": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "friendly-errors-webpack-plugin": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "html-webpack-plugin": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "jest": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "jest-serializer-vue": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "nightwatch": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "node-notifier": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "optimize-css-assets-webpack-plugin": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "ora": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "portfinder": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "postcss-import": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "postcss-loader": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "postcss-url": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "rimraf": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "selenium-server": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "semver": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "shelljs": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "uglifyjs-webpack-plugin": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "url-loader": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "vue-easytable": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "vue-jest": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "vue-loader": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "vue-style-loader": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "vue-template-compiler": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "webpack": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "webpack-bundle-analyzer": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "webpack-dev-server": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "webpack-merge": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "npm": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+    },
+    "browserslist": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+  "HOME": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+  "rundir": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "notFound": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "sitefile": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "middlewares": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "httpClient": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "encoding": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "formLimit": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "strict": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "depth": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "encoding": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "env": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "level": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "outputJSON": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "buffer": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "appLogName": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "coreLogName": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "agentLogName": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "errorLogName": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "logging": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "port": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+      "hostname": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/luneice/project/NodejsProject/egg/node_modules/egg/config/config.default.js"
+}

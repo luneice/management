@@ -1,0 +1,277 @@
+2018-06-23 21:35:58,250 INFO 21650 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 21:35:58,333 INFO 21650 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 21:35:58,333 INFO 21650 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 21:35:58,354 INFO 21650 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 21:35:58,487 INFO 21650 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 21:35:58,490 INFO 21650 [egg-security] use csrf middleware
+2018-06-23 21:35:58,491 INFO 21650 [egg-security] use methodnoallow middleware
+2018-06-23 21:35:58,492 INFO 21650 [egg-security] use noopen middleware
+2018-06-23 21:35:58,492 INFO 21650 [egg-security] use nosniff middleware
+2018-06-23 21:35:58,492 INFO 21650 [egg-security] use xssProtection middleware
+2018-06-23 21:35:58,493 INFO 21650 [egg-security] use xframe middleware
+2018-06-23 21:35:58,493 INFO 21650 [egg-security] use dta middleware
+2018-06-23 21:35:58,493 INFO 21650 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 21:35:58,510 INFO 21650 [egg:core] dump config after load, 10ms
+2018-06-23 21:35:58,536 INFO 21650 [egg-watcher:app] watcher start success
+2018-06-23 21:35:58,539 INFO 21650 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 21:35:58 GMT+0800 (CST)
+2018-06-23 21:35:58,548 INFO 21650 [egg:core] dump config after ready, 7ms
+2018-06-23 21:37:01,035 INFO 21707 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 21:37:01,098 INFO 21707 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 21:37:01,098 INFO 21707 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 21:37:01,114 INFO 21707 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 21:37:01,263 INFO 21707 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 21:37:01,266 INFO 21707 [egg-security] use csrf middleware
+2018-06-23 21:37:01,267 INFO 21707 [egg-security] use methodnoallow middleware
+2018-06-23 21:37:01,268 INFO 21707 [egg-security] use noopen middleware
+2018-06-23 21:37:01,268 INFO 21707 [egg-security] use nosniff middleware
+2018-06-23 21:37:01,269 INFO 21707 [egg-security] use xssProtection middleware
+2018-06-23 21:37:01,269 INFO 21707 [egg-security] use xframe middleware
+2018-06-23 21:37:01,269 INFO 21707 [egg-security] use dta middleware
+2018-06-23 21:37:01,269 INFO 21707 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 21:37:01,285 INFO 21707 [egg:core] dump config after load, 10ms
+2018-06-23 21:37:01,312 INFO 21707 [egg-watcher:app] watcher start success
+2018-06-23 21:37:01,314 INFO 21707 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 21:37:01 GMT+0800 (CST)
+2018-06-23 21:37:01,324 INFO 21707 [egg:core] dump config after ready, 7ms
+2018-06-23 21:40:36,005 INFO 21923 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 21:40:36,084 INFO 21923 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 21:40:36,084 INFO 21923 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 21:40:36,103 INFO 21923 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 21:40:36,283 INFO 21923 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 21:40:36,287 INFO 21923 [egg-security] use csrf middleware
+2018-06-23 21:40:36,289 INFO 21923 [egg-security] use methodnoallow middleware
+2018-06-23 21:40:36,290 INFO 21923 [egg-security] use noopen middleware
+2018-06-23 21:40:36,291 INFO 21923 [egg-security] use nosniff middleware
+2018-06-23 21:40:36,291 INFO 21923 [egg-security] use xssProtection middleware
+2018-06-23 21:40:36,292 INFO 21923 [egg-security] use xframe middleware
+2018-06-23 21:40:36,292 INFO 21923 [egg-security] use dta middleware
+2018-06-23 21:40:36,292 INFO 21923 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 21:40:36,311 INFO 21923 [egg:core] dump config after load, 14ms
+2018-06-23 21:40:36,342 INFO 21923 [egg-watcher:app] watcher start success
+2018-06-23 21:40:36,346 INFO 21923 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 21:40:36 GMT+0800 (CST)
+2018-06-23 21:40:36,359 INFO 21923 [egg:core] dump config after ready, 10ms
+2018-06-23 21:59:28,448 INFO 22465 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 21:59:28,510 INFO 22465 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 21:59:28,511 INFO 22465 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 21:59:28,527 INFO 22465 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 21:59:28,669 INFO 22465 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 21:59:28,672 INFO 22465 [egg-security] use csrf middleware
+2018-06-23 21:59:28,673 INFO 22465 [egg-security] use methodnoallow middleware
+2018-06-23 21:59:28,674 INFO 22465 [egg-security] use noopen middleware
+2018-06-23 21:59:28,674 INFO 22465 [egg-security] use nosniff middleware
+2018-06-23 21:59:28,674 INFO 22465 [egg-security] use xssProtection middleware
+2018-06-23 21:59:28,675 INFO 22465 [egg-security] use xframe middleware
+2018-06-23 21:59:28,675 INFO 22465 [egg-security] use dta middleware
+2018-06-23 21:59:28,675 INFO 22465 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 21:59:28,690 INFO 22465 [egg:core] dump config after load, 9ms
+2018-06-23 21:59:28,714 INFO 22465 [egg-watcher:app] watcher start success
+2018-06-23 21:59:28,719 INFO 22465 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 21:59:28 GMT+0800 (CST)
+2018-06-23 21:59:28,728 INFO 22465 [egg:core] dump config after ready, 7ms
+2018-06-23 22:01:36,856 INFO 22563 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 22:01:36,919 INFO 22563 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 22:01:36,919 INFO 22563 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 22:01:36,935 INFO 22563 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 22:01:37,078 INFO 22563 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 22:01:37,082 INFO 22563 [egg-security] use csrf middleware
+2018-06-23 22:01:37,083 INFO 22563 [egg-security] use methodnoallow middleware
+2018-06-23 22:01:37,083 INFO 22563 [egg-security] use noopen middleware
+2018-06-23 22:01:37,083 INFO 22563 [egg-security] use nosniff middleware
+2018-06-23 22:01:37,084 INFO 22563 [egg-security] use xssProtection middleware
+2018-06-23 22:01:37,084 INFO 22563 [egg-security] use xframe middleware
+2018-06-23 22:01:37,084 INFO 22563 [egg-security] use dta middleware
+2018-06-23 22:01:37,084 INFO 22563 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 22:01:37,099 INFO 22563 [egg:core] dump config after load, 9ms
+2018-06-23 22:01:37,126 INFO 22563 [egg-watcher:app] watcher start success
+2018-06-23 22:01:37,128 INFO 22563 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 22:01:37 GMT+0800 (CST)
+2018-06-23 22:01:37,138 INFO 22563 [egg:core] dump config after ready, 8ms
+2018-06-23 22:02:35,142 INFO 22594 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 22:02:35,208 INFO 22594 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 22:02:35,208 INFO 22594 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 22:02:35,225 INFO 22594 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 22:02:35,385 INFO 22594 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 22:02:35,389 INFO 22594 [egg-security] use csrf middleware
+2018-06-23 22:02:35,390 INFO 22594 [egg-security] use methodnoallow middleware
+2018-06-23 22:02:35,390 INFO 22594 [egg-security] use noopen middleware
+2018-06-23 22:02:35,391 INFO 22594 [egg-security] use nosniff middleware
+2018-06-23 22:02:35,391 INFO 22594 [egg-security] use xssProtection middleware
+2018-06-23 22:02:35,391 INFO 22594 [egg-security] use xframe middleware
+2018-06-23 22:02:35,392 INFO 22594 [egg-security] use dta middleware
+2018-06-23 22:02:35,392 INFO 22594 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 22:02:35,408 INFO 22594 [egg:core] dump config after load, 10ms
+2018-06-23 22:02:35,438 INFO 22594 [egg-watcher:app] watcher start success
+2018-06-23 22:02:35,441 INFO 22594 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 22:02:35 GMT+0800 (CST)
+2018-06-23 22:02:35,453 INFO 22594 [egg:core] dump config after ready, 9ms
+2018-06-23 22:04:12,546 INFO 22812 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 22:04:12,611 INFO 22812 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 22:04:12,611 INFO 22812 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 22:04:12,628 INFO 22812 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 22:04:12,778 INFO 22812 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 22:04:12,781 INFO 22812 [egg-security] use csrf middleware
+2018-06-23 22:04:12,782 INFO 22812 [egg-security] use methodnoallow middleware
+2018-06-23 22:04:12,783 INFO 22812 [egg-security] use noopen middleware
+2018-06-23 22:04:12,784 INFO 22812 [egg-security] use nosniff middleware
+2018-06-23 22:04:12,784 INFO 22812 [egg-security] use xssProtection middleware
+2018-06-23 22:04:12,785 INFO 22812 [egg-security] use xframe middleware
+2018-06-23 22:04:12,785 INFO 22812 [egg-security] use dta middleware
+2018-06-23 22:04:12,785 INFO 22812 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 22:04:12,800 INFO 22812 [egg:core] dump config after load, 9ms
+2018-06-23 22:04:12,828 INFO 22812 [egg-watcher:app] watcher start success
+2018-06-23 22:04:12,831 INFO 22812 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 22:04:12 GMT+0800 (CST)
+2018-06-23 22:04:12,841 INFO 22812 [egg:core] dump config after ready, 8ms
+2018-06-23 22:05:10,174 INFO 22842 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 22:05:10,243 INFO 22842 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 22:05:10,243 INFO 22842 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 22:05:10,261 INFO 22842 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 22:05:10,410 INFO 22842 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 22:05:10,415 INFO 22842 [egg-security] use csrf middleware
+2018-06-23 22:05:10,416 INFO 22842 [egg-security] use methodnoallow middleware
+2018-06-23 22:05:10,416 INFO 22842 [egg-security] use noopen middleware
+2018-06-23 22:05:10,417 INFO 22842 [egg-security] use nosniff middleware
+2018-06-23 22:05:10,417 INFO 22842 [egg-security] use xssProtection middleware
+2018-06-23 22:05:10,417 INFO 22842 [egg-security] use xframe middleware
+2018-06-23 22:05:10,418 INFO 22842 [egg-security] use dta middleware
+2018-06-23 22:05:10,418 INFO 22842 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 22:05:10,434 INFO 22842 [egg:core] dump config after load, 10ms
+2018-06-23 22:05:10,463 INFO 22842 [egg-watcher:app] watcher start success
+2018-06-23 22:05:10,465 INFO 22842 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 22:05:10 GMT+0800 (CST)
+2018-06-23 22:05:10,476 INFO 22842 [egg:core] dump config after ready, 8ms
+2018-06-23 22:05:45,880 INFO 22870 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 22:05:45,942 INFO 22870 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 22:05:45,942 INFO 22870 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 22:05:45,958 INFO 22870 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 22:05:46,114 INFO 22870 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 22:05:46,118 INFO 22870 [egg-security] use csrf middleware
+2018-06-23 22:05:46,119 INFO 22870 [egg-security] use methodnoallow middleware
+2018-06-23 22:05:46,119 INFO 22870 [egg-security] use noopen middleware
+2018-06-23 22:05:46,120 INFO 22870 [egg-security] use nosniff middleware
+2018-06-23 22:05:46,120 INFO 22870 [egg-security] use xssProtection middleware
+2018-06-23 22:05:46,120 INFO 22870 [egg-security] use xframe middleware
+2018-06-23 22:05:46,121 INFO 22870 [egg-security] use dta middleware
+2018-06-23 22:05:46,121 INFO 22870 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 22:05:46,136 INFO 22870 [egg:core] dump config after load, 10ms
+2018-06-23 22:05:46,164 INFO 22870 [egg-watcher:app] watcher start success
+2018-06-23 22:05:46,167 INFO 22870 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 22:05:46 GMT+0800 (CST)
+2018-06-23 22:05:46,177 INFO 22870 [egg:core] dump config after ready, 8ms
+2018-06-23 22:05:56,027 INFO 22883 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 22:05:56,096 INFO 22883 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 22:05:56,096 INFO 22883 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 22:05:56,113 INFO 22883 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 22:05:56,270 INFO 22883 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 22:05:56,273 INFO 22883 [egg-security] use csrf middleware
+2018-06-23 22:05:56,274 INFO 22883 [egg-security] use methodnoallow middleware
+2018-06-23 22:05:56,274 INFO 22883 [egg-security] use noopen middleware
+2018-06-23 22:05:56,275 INFO 22883 [egg-security] use nosniff middleware
+2018-06-23 22:05:56,275 INFO 22883 [egg-security] use xssProtection middleware
+2018-06-23 22:05:56,275 INFO 22883 [egg-security] use xframe middleware
+2018-06-23 22:05:56,276 INFO 22883 [egg-security] use dta middleware
+2018-06-23 22:05:56,276 INFO 22883 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 22:05:56,291 INFO 22883 [egg:core] dump config after load, 9ms
+2018-06-23 22:05:56,316 INFO 22883 [egg-watcher:app] watcher start success
+2018-06-23 22:05:56,321 INFO 22883 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 22:05:56 GMT+0800 (CST)
+2018-06-23 22:05:56,330 INFO 22883 [egg:core] dump config after ready, 7ms
+2018-06-23 22:06:09,494 INFO 22907 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 22:06:09,563 INFO 22907 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 22:06:09,563 INFO 22907 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 22:06:09,581 INFO 22907 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 22:06:09,730 INFO 22907 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 22:06:09,734 INFO 22907 [egg-security] use csrf middleware
+2018-06-23 22:06:09,735 INFO 22907 [egg-security] use methodnoallow middleware
+2018-06-23 22:06:09,736 INFO 22907 [egg-security] use noopen middleware
+2018-06-23 22:06:09,736 INFO 22907 [egg-security] use nosniff middleware
+2018-06-23 22:06:09,736 INFO 22907 [egg-security] use xssProtection middleware
+2018-06-23 22:06:09,737 INFO 22907 [egg-security] use xframe middleware
+2018-06-23 22:06:09,737 INFO 22907 [egg-security] use dta middleware
+2018-06-23 22:06:09,737 INFO 22907 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 22:06:09,754 INFO 22907 [egg:core] dump config after load, 11ms
+2018-06-23 22:06:09,781 INFO 22907 [egg-watcher:app] watcher start success
+2018-06-23 22:06:09,783 INFO 22907 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 22:06:09 GMT+0800 (CST)
+2018-06-23 22:06:09,793 INFO 22907 [egg:core] dump config after ready, 7ms
+2018-06-23 22:09:50,169 INFO 23025 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 22:09:50,233 INFO 23025 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 22:09:50,233 INFO 23025 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 22:09:50,250 INFO 23025 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 22:09:50,402 INFO 23025 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 22:09:50,405 INFO 23025 [egg-security] use csrf middleware
+2018-06-23 22:09:50,406 INFO 23025 [egg-security] use methodnoallow middleware
+2018-06-23 22:09:50,407 INFO 23025 [egg-security] use noopen middleware
+2018-06-23 22:09:50,407 INFO 23025 [egg-security] use nosniff middleware
+2018-06-23 22:09:50,408 INFO 23025 [egg-security] use xssProtection middleware
+2018-06-23 22:09:50,408 INFO 23025 [egg-security] use xframe middleware
+2018-06-23 22:09:50,408 INFO 23025 [egg-security] use dta middleware
+2018-06-23 22:09:50,408 INFO 23025 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 22:09:50,424 INFO 23025 [egg:core] dump config after load, 10ms
+2018-06-23 22:09:50,449 INFO 23025 [egg-watcher:app] watcher start success
+2018-06-23 22:09:50,458 INFO 23025 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 22:09:50 GMT+0800 (CST)
+2018-06-23 22:09:50,471 INFO 23025 [egg:core] dump config after ready, 9ms
+2018-06-23 22:11:49,732 INFO 23088 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 22:11:49,801 INFO 23088 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 22:11:49,801 INFO 23088 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 22:11:49,819 INFO 23088 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 22:11:49,978 INFO 23088 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 22:11:49,981 INFO 23088 [egg-security] use csrf middleware
+2018-06-23 22:11:49,982 INFO 23088 [egg-security] use methodnoallow middleware
+2018-06-23 22:11:49,983 INFO 23088 [egg-security] use noopen middleware
+2018-06-23 22:11:49,983 INFO 23088 [egg-security] use nosniff middleware
+2018-06-23 22:11:49,983 INFO 23088 [egg-security] use xssProtection middleware
+2018-06-23 22:11:49,984 INFO 23088 [egg-security] use xframe middleware
+2018-06-23 22:11:49,984 INFO 23088 [egg-security] use dta middleware
+2018-06-23 22:11:49,984 INFO 23088 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 22:11:50,000 INFO 23088 [egg:core] dump config after load, 10ms
+2018-06-23 22:11:50,028 INFO 23088 [egg-watcher:app] watcher start success
+2018-06-23 22:11:50,030 INFO 23088 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 22:11:50 GMT+0800 (CST)
+2018-06-23 22:11:50,096 INFO 23088 [egg:core] dump config after ready, 63ms
+2018-06-23 22:12:31,107 INFO 23116 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 22:12:31,170 INFO 23116 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 22:12:31,170 INFO 23116 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 22:12:31,186 INFO 23116 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 22:12:31,330 INFO 23116 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 22:12:31,333 INFO 23116 [egg-security] use csrf middleware
+2018-06-23 22:12:31,334 INFO 23116 [egg-security] use methodnoallow middleware
+2018-06-23 22:12:31,335 INFO 23116 [egg-security] use noopen middleware
+2018-06-23 22:12:31,335 INFO 23116 [egg-security] use nosniff middleware
+2018-06-23 22:12:31,335 INFO 23116 [egg-security] use xssProtection middleware
+2018-06-23 22:12:31,336 INFO 23116 [egg-security] use xframe middleware
+2018-06-23 22:12:31,336 INFO 23116 [egg-security] use dta middleware
+2018-06-23 22:12:31,336 INFO 23116 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 22:12:31,351 INFO 23116 [egg:core] dump config after load, 9ms
+2018-06-23 22:12:31,378 INFO 23116 [egg-watcher:app] watcher start success
+2018-06-23 22:12:31,380 INFO 23116 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 22:12:31 GMT+0800 (CST)
+2018-06-23 22:12:31,389 INFO 23116 [egg:core] dump config after ready, 7ms
+2018-06-23 22:15:57,133 INFO 23194 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 22:15:57,199 INFO 23194 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 22:15:57,199 INFO 23194 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 22:15:57,217 INFO 23194 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 22:15:57,371 INFO 23194 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 22:15:57,375 INFO 23194 [egg-security] use csrf middleware
+2018-06-23 22:15:57,376 INFO 23194 [egg-security] use methodnoallow middleware
+2018-06-23 22:15:57,376 INFO 23194 [egg-security] use noopen middleware
+2018-06-23 22:15:57,376 INFO 23194 [egg-security] use nosniff middleware
+2018-06-23 22:15:57,377 INFO 23194 [egg-security] use xssProtection middleware
+2018-06-23 22:15:57,377 INFO 23194 [egg-security] use xframe middleware
+2018-06-23 22:15:57,377 INFO 23194 [egg-security] use dta middleware
+2018-06-23 22:15:57,377 INFO 23194 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 22:15:57,392 INFO 23194 [egg:core] dump config after load, 9ms
+2018-06-23 22:15:57,420 INFO 23194 [egg-watcher:app] watcher start success
+2018-06-23 22:15:57,423 INFO 23194 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 22:15:57 GMT+0800 (CST)
+2018-06-23 22:15:57,432 INFO 23194 [egg:core] dump config after ready, 7ms
+2018-06-23 22:15:59,867 INFO 23205 [egg:logger] init all loggers with options: {"dir":"/luneice/project/NodejsProject/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-06-23 22:15:59,932 INFO 23205 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-23 22:15:59,933 INFO 23205 [egg-schedule]: register schedule /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-23 22:15:59,950 INFO 23205 [egg-mysql] connecting root@localhost:3306/luneice
+2018-06-23 22:16:00,102 INFO 23205 [egg-static] starting static serve /public/ -> /luneice/project/NodejsProject/egg/app/public
+2018-06-23 22:16:00,105 INFO 23205 [egg-security] use csrf middleware
+2018-06-23 22:16:00,107 INFO 23205 [egg-security] use methodnoallow middleware
+2018-06-23 22:16:00,107 INFO 23205 [egg-security] use noopen middleware
+2018-06-23 22:16:00,108 INFO 23205 [egg-security] use nosniff middleware
+2018-06-23 22:16:00,108 INFO 23205 [egg-security] use xssProtection middleware
+2018-06-23 22:16:00,108 INFO 23205 [egg-security] use xframe middleware
+2018-06-23 22:16:00,109 INFO 23205 [egg-security] use dta middleware
+2018-06-23 22:16:00,109 INFO 23205 [egg-security] compose 7 middlewares into one security middleware
+2018-06-23 22:16:00,124 INFO 23205 [egg:core] dump config after load, 9ms
+2018-06-23 22:16:00,150 INFO 23205 [egg-watcher:app] watcher start success
+2018-06-23 22:16:00,157 INFO 23205 [egg-mysql] instance[0] status OK, rds currentTime: Sat Jun 23 2018 22:16:00 GMT+0800 (CST)
+2018-06-23 22:16:00,171 INFO 23205 [egg:core] dump config after ready, 10ms
+2018-06-24 00:00:00,019 INFO 23205 [egg-logrotator] clean all log before 31 days
+2018-06-24 00:00:00,019 INFO 23205 [-/127.0.0.1/-/6ms SCHEDULE /__schedule?path=/luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js&type=worker&cron=0%200%20*%20*%20*] [egg-schedule] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 6ms
+2018-06-24 00:00:01,012 INFO 23205 [egg-logrotator] broadcast log-reload
+2018-06-24 00:00:01,013 INFO 23205 [egg-logrotator] rotate files success by DayRotator, files ["/luneice/project/NodejsProject/egg/logs/egg/common-error.log -> /luneice/project/NodejsProject/egg/logs/egg/common-error.log.2018-06-23","/luneice/project/NodejsProject/egg/logs/egg/egg-web.log -> /luneice/project/NodejsProject/egg/logs/egg/egg-web.log.2018-06-23","/luneice/project/NodejsProject/egg/logs/egg/egg-schedule.log -> /luneice/project/NodejsProject/egg/logs/egg/egg-schedule.log.2018-06-23","/luneice/project/NodejsProject/egg/logs/egg/egg-agent.log -> /luneice/project/NodejsProject/egg/logs/egg/egg-agent.log.2018-06-23"]
+2018-06-24 00:00:01,013 INFO 23205 [-/127.0.0.1/-/8ms SCHEDULE /__schedule?path=/luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [egg-schedule] /luneice/project/NodejsProject/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 8ms
