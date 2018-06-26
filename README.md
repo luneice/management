@@ -1,6 +1,6 @@
-# egg
+# egg for back-end and vue for front-end
 
-> A Vue.js project
+> A Vue.js and Egg.js project
 
 ## Build Setup
 
