@@ -1,30 +1,3 @@
 # egg for back-end and vue for front-end
 
-> A Vue.js and Egg.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### 使用阿里巴巴开源框架 Egg 作为后端，使用 Vue 作为前端前后端分离的项目，数据库使用 MySQL。提供简单的数据可视化。
